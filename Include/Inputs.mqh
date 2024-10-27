@@ -37,12 +37,14 @@ input double               StandardDeviation             = 2.0;                 
 
 
 input group "TAKEPROFIT SETTINGS"
+input ENUM_TYPE_TAKEPROFIT TypeTakeprofit                = TAKEPROFIT_NONE;      // Type Takeprofit
 input double               Takeprofit_Points             = 100;                  // [Points] Takeprofit 
 
 
 
 
 input group "STOPLOSS SETTINGS"
+input ENUM_TYPE_STOPLOSS   TypeStoploss                  = STOPLOSS_NONE;        // Type Stoploss
 input double               Stoploss_Points               = 100;                  // [Points] Stoploss
 
 
